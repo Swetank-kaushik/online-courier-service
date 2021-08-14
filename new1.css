@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+html {
+  scroll-behavior: smooth;
+}
+
+@media only screen and (min-width: 1200px) {
+  .carousel-caption {
+    top: 65%;
+  }
+}
+
+.nav_bg {
+  background-color: rgb(128, 238, 241);
+  opacity: 0.9;
+}
+
+nav li {
+  text-transform: uppercase;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  color: #212121;
+  transition: all 0.5s ease;
+  font-size: 1rem;
+}
+
+.nav-link:hover {
+  color: white;
+  background-color: rgb(0, 85, 196);
+  opacity: 0.7;
+  transition: all 0.5s ease;
+}
+
+
+
+.jumbotron {
+  padding: 1rem;
+  border-radius: 0;
+}
+
+hr {
+  border-top: 2px solid #b4b4b4;
+  width: 50%;
+}
+
+.connect {
+  background-color: #14242b;
+  color: #d5d5d5;
+  padding: 2rem;
+}
+
+hr.light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+}
+.lead {
+  text-align: center;
+}
+
+.center{
+  margin: 0 auto;
+}
+
+#about{
+  margin: 0 auto;
+}
